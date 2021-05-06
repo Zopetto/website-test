@@ -42,11 +42,6 @@ body {
     z-index: -1000;
     overflow: hidden;
     object-fit: fill;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
 }
 
 
@@ -67,7 +62,7 @@ span {
         font-family: "Roboto Mono", monospace;
         font-size: 1rem;
         animation: fade-in-slow 3s ease-in;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.9rem;
     }
     
     .main *, a {
