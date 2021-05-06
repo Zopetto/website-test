@@ -60,7 +60,7 @@ span {
 }
  
 
-    .main {
+    #main {
         margin: 0.7rem;
         text-align: center;
         color: var(--white-text-color);
@@ -70,7 +70,7 @@ span {
         padding-bottom: 0.5rem;
     }
     
-    .main *, a {
+    #main *, a {
         margin: 0rem 1rem;
         color: var(--white-text-color);
         padding-bottom: 0.2rem;
@@ -79,7 +79,7 @@ span {
         transition: 0.5s ease-out;
     }
     
-    .main *:hover, a:hover {
+    #main *:hover, a:hover {
         color: rgb(30, 81, 190);
         border-bottom: 2px solid var(--complimentary-two);
 }
